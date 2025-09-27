@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(245, 245, 236);
+    color: black;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.nav{
+    height: 6svh;
+    width: 40%;
+    margin-top: 1%;
+    border-radius: 45pt;
+    display: flex;
+    z-index: 1000;
+     position: sticky;
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     top: 0;      
+    
+}
+
+.btns{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#modeToggle{
+    font-size: 1.5rem;
+    padding: 1.5% 0% 0% 8%;
+}
+
+.btns:active {
+      background: black;
+      color: white;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: black;
+}
+
+
+#projects{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#con{
+    font-size: 1.5rem;
+    padding: 0% 20% 2% 20%;
+    text-align: center;
+    color: #7c7c7c;
+}
+
+.btn_div{
+        margin: 0% 40% 8% 40%;
+        display: flex;
+}
+
+.btn{
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 6%;
+}
+
+.c_btn{
+    padding: 1% 2%;
+    font-size: 0.9rem;
+    margin-top: 4%;
+    margin-left: 0%;
+}
+
+.last,.first{
+    display: flex;
+}
+
+.box_icon{
+    padding: 6% 0% 0% 75%;
+}
+
+.tech_btn{
+    padding: 0.5% 3%;
+    margin-left: 0%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-color: rgb(230, 226, 226);
+}
+
+.card{
+    background-color: rgb(250, 252, 237);;
+}
+
+.f_icon{
+    font-size: 1.5rem;
+    padding-right: 10%;
+    text-decoration: none;
+    color: black;
+     transition: 0.3s;
+}
+
+.f_icon:hover{
+      color: rgb(154, 138, 138);
+}

@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(245, 245, 236);
+    color: black;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.nav{
+    height: 6svh;
+    width: 40%;
+    margin-top: 1%;
+    border-radius: 45pt;
+    display: flex;
+    z-index: 1000;
+     position: sticky;
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     top: 0;      
+    
+}
+
+.btns{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#modeToggle{
+    font-size: 1.5rem;
+    padding: 1.5% 0% 0% 8%;
+}
+
+.btns:active {
+      background: black;
+      color: white;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: black;
+}
+
+.img{
+    height: 12%;
+    width: 12%;
+    border-radius: 50%;
+    display: flex;
+    margin:2% 45%;
+}
+
+#name{
+    font-size: 3rem;
+    padding: 0% 0% 0% 36%;
+}
+
+
+#aboutme{
+    font-size: 1.4rem;
+    padding: 0% 27% ;
+    text-align: center;
+}
+
+#me{
+    font-size: 1.1rem;
+    padding: 3% 25% 2% 25%;
+    line-height: 130%;
+}
+
+
+.f_icon{
+    font-size: 1.5rem;
+    padding-right: 10%;
+    text-decoration: none;
+    color: black;
+     transition: 0.3s;
+}
+
+.f_icon:hover{
+      color: rgb(154, 138, 138);
+}

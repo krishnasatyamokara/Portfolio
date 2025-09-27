@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(245, 245, 236);
+    color: black;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.nav{
+    height: 6svh;
+    width: 40%;
+    margin-top: 1%;
+    border-radius: 45pt;
+    display: flex;
+    z-index: 1000;
+     position: sticky;
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     top: 0;      
+    
+}
+
+.btns{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#modeToggle{
+    font-size: 1.5rem;
+    padding: 1.5% 0% 0% 8%;
+}
+
+.btns:active {
+      background: black;
+      color: white;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: black;
+}
+
+.img{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    display: flex;
+    margin:2% 45%;
+}
+
+#name{
+    font-size: 3rem;
+    padding: 0% 34%;
+}
+
+#ml{
+    font-size: 1.1rem;
+    padding: 0.7% 0% 0% 42%;
+    color: rgb(60, 58, 58);
+}
+
+#aboutme{
+    font-size: 1.3rem;
+    padding: 0.5% 27% ;
+    text-align: center;
+}
+
+#scroll{
+    height: 10%;
+    width: 40%;
+    margin: 2% 0% 0% 29%;
+    display: flex;
+    text-align: center;
+}
+
+.s_icon{
+    font-size: 2.5rem;
+    padding-left: 10%;
+}
+
+#links{
+    margin: 5% 0% 0% 43%;
+}
+
+.l_icon{
+    font-size: 1.5rem;
+    padding-left: 7%;
+}
+
+.content{
+    display: flex;
+    width: 45%;
+    margin-left: 27%;
+}
+
+#left{
+    float: left;
+    width: 65%;
+}
+
+#right{
+    float: right;
+    width: 35%;
+}
+
+#me{
+    font-size: 1.14rem;
+    
+}
+
+.skills{
+    display: flex;
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+.s_left{
+    width: 30%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.s_right{
+    width: 70%;
+    padding: 5%;
+}
+
+.sk_icon{
+    padding-left: 55%;
+}
+
+#course{
+    display: flex;
+    margin-left: 27%;
+}
+
+.curve{
+    border-radius: 35px;
+    margin-right: 2%;
+    font-size: 1rem;
+    padding: 0.3% 2%;
+    font-size: 0.9rem;
+    border-color: rgb(207, 206, 206);
+}
+
+#featured{
+    padding: 7% 0% 0% 38%;
+    font-size: 3.1rem;
+}
+
+#f_para{
+    font-size: 1.4rem;
+    padding-left: 34%;
+}
+
+.c_btn{
+    padding: 1%;
+    font-size: 0.9rem;
+    margin-top: 4%;
+}
+
+.tech_btn{
+    border-color: black ;
+    padding: 0.5% 3%;
+    margin-left: 2%;
+    font-size: 0.8rem;
+    background-color: antiquewhite;
+    font-weight: 600;
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+}
+
+.card-hover:hover {
+  transform: scale(1.05); /* slightly zoom in */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5); /* shadow effect */
+}
+
+#connect{
+    font-size: 3.1rem;
+    padding-left: 40%;
+}
+
+#c_para{
+    font-size: 1.4rem;
+    padding-left: 28%;
+}
+
+.c_icon{
+    font-size: 2.6rem;
+    padding-bottom: 1.5%;
+}
+
+.f_icon{
+    font-size: 1.5rem;
+    padding-right: 10%;
+    text-decoration: none;
+    color: black;
+     transition: 0.3s;
+}
+
+.f_icon:hover{
+      color: rgb(154, 138, 138);
+}
